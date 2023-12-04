@@ -1,0 +1,19 @@
+version: '3'
+services:
+  tlmo.server:
+    image: tlmo.server
+    build:
+      context: ..
+      dockerfile: Tlmo.Server/Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      - tlmo.db
+  tlmo.db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_DB: "tlmo"
+    ports:
+      - "5432:5432"

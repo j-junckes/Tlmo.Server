@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlmo.Server", "Tlmo.Server\Tlmo.Server.csproj", "{0BB23E62-9040-4E3C-83AE-AE796ED6F74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlmo.Repository", "Tlmo.Repository\Tlmo.Repository.csproj", "{5D0A6A44-ED0D-43AD-8EA3-31AAE3CD7C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlmo.Entities", "Tlmo.Entities\Tlmo.Entities.csproj", "{91E53825-3B51-4A1E-91E8-4D0D4C7B18B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB23E62-9040-4E3C-83AE-AE796ED6F74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB23E62-9040-4E3C-83AE-AE796ED6F74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB23E62-9040-4E3C-83AE-AE796ED6F74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB23E62-9040-4E3C-83AE-AE796ED6F74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0A6A44-ED0D-43AD-8EA3-31AAE3CD7C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0A6A44-ED0D-43AD-8EA3-31AAE3CD7C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0A6A44-ED0D-43AD-8EA3-31AAE3CD7C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0A6A44-ED0D-43AD-8EA3-31AAE3CD7C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E53825-3B51-4A1E-91E8-4D0D4C7B18B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E53825-3B51-4A1E-91E8-4D0D4C7B18B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E53825-3B51-4A1E-91E8-4D0D4C7B18B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E53825-3B51-4A1E-91E8-4D0D4C7B18B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

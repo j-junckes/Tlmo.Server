@@ -1,0 +1,6 @@
+@Tlmo.Server_HostAddress = http://localhost:5071
+
+GET {{Tlmo.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
